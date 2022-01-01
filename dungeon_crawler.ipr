@@ -472,6 +472,18 @@
   <component name="Encoding">
     <file url="PROJECT" charset="UTF-8" />
   </component>
+  <component name="GitToolBoxProjectSettings">
+    <option name="commitMessageIssueKeyValidationOverride">
+      <BoolValueOverride>
+        <option name="enabled" value="true" />
+      </BoolValueOverride>
+    </option>
+    <option name="commitMessageValidationConfigOverride">
+      <CommitMessageValidationOverride>
+        <option name="enabled" value="true" />
+      </CommitMessageValidationOverride>
+    </option>
+  </component>
   <component name="InspectionProjectProfileManager">
     <profile version="1.0">
       <option name="myName" value="Project Default" />
