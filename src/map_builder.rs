@@ -60,20 +60,18 @@ impl MapBuilder {
         }
     }
 
-    fn apply_vertical_tunnel(&mut self, y1:i32, y2:i32, x:i32) {
+    fn apply_horizontal_tunnel(&mut self, x1: i32, x2: i32, y: i32) {
         use std::cmp::{min, max};
-
-        for y in min(y1, y2) ..= max(y1, y2) {
+        for x in min(x1, x2)..=max(x1, x2) {
             if let Some(idx) = self.map.try_idx(Point::new(x, y)) {
                 self.map.tiles[idx as usize] = TileType::Floor;
             }
         }
     }
 
-    fn apply_horizontal_tunnel(&mut self, x1: i32, x2: i32, y: i32) {
+    fn apply_vertical_tunnel(&mut self, y1: i32, y2: i32, x: i32) {
         use std::cmp::{min, max};
-
-        for x in min(x1, x2) ..= max(x1, x2) {
+        for y in min(y1, y2)..=max(y1, y2) {
             if let Some(idx) = self.map.try_idx(Point::new(x, y)) {
                 self.map.tiles[idx as usize] = TileType::Floor;
             }
@@ -82,11 +80,10 @@ impl MapBuilder {
 
     fn build_corridors(&mut self, rng: &mut RandomNumberGenerator) {
         let mut rooms = self.rooms.clone();
-
         rooms.sort_by(|a, b| a.center().x.cmp(&b.center().x));
 
         for (i, room) in rooms.iter().enumerate().skip(1) {
-            let prev = rooms[i-1].center();
+            let prev = rooms[i - 1].center();
             let new = room.center();
 
             if rng.range(0, 2) == 1 {
