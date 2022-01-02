@@ -4,15 +4,10 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="281c40aa-ecee-4f4d-8a3e-e9b9b2955cdc" name="Changes" comment="feat: initialization">
-      <change afterPath="$PROJECT_DIR$/src/map.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/player.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeon_crawler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dungeon_crawler.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeon_crawler.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/dungeon_crawler.ipr" afterDir="false" />
+    <list default="true" id="281c40aa-ecee-4f4d-8a3e-e9b9b2955cdc" name="Changes" comment="feat: map api">
       <change beforePath="$PROJECT_DIR$/dungeon_crawler.iws" beforeDir="false" afterPath="$PROJECT_DIR$/dungeon_crawler.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/map.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641040515223</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: map api">
+      <created>1641047980036</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1641047980036</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +152,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: initialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: initialization" />
+    <MESSAGE value="feat: map api" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: map api" />
   </component>
 </project>
