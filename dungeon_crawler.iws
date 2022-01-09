@@ -4,17 +4,11 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="281c40aa-ecee-4f4d-8a3e-e9b9b2955cdc" name="Changes" comment="refactor: refactor all modules">
-      <change afterPath="$PROJECT_DIR$/src/components.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spawner.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/systems/mod.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeon_crawler.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/dungeon_crawler.ipr" afterDir="false" />
+    <list default="true" id="281c40aa-ecee-4f4d-8a3e-e9b9b2955cdc" name="Changes" comment="feat: introduce systems and ecs">
+      <change afterPath="$PROJECT_DIR$/src/systems/player_input.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dungeon_crawler.iws" beforeDir="false" afterPath="$PROJECT_DIR$/dungeon_crawler.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/map.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/systems/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/systems/mod.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641164257625</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: introduce systems and ecs">
+      <created>1641595578504</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1641595578504</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +246,8 @@
     <MESSAGE value="feat: mab builder api" />
     <MESSAGE value="feat: use png assets as font with camera" />
     <MESSAGE value="refactor: refactor all modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: refactor all modules" />
+    <MESSAGE value="feat: introduce systems" />
+    <MESSAGE value="feat: introduce systems and ecs" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: introduce systems and ecs" />
   </component>
 </project>

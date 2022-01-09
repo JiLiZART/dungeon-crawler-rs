@@ -11,7 +11,7 @@ mod prelude {
     pub use bracket_lib::prelude::*;
     pub use legion::*;
     pub use legion::world::SubWorld;
-    pub use legion::system::CommandBuffer;
+    pub use legion::systems::CommandBuffer;
 
     pub use crate::components::*;
 
@@ -65,7 +65,7 @@ impl GameState for State {
         self.resources.insert(ctx.key);
         self.systems.execute(&mut self.ecs, &mut self.resources);
 
-        // @TODO: Render Draw Buffer
+        render_draw_buffer(ctx).expect("Render Error");
     }
 }
 
