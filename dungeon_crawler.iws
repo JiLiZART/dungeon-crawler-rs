@@ -4,8 +4,8 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="281c40aa-ecee-4f4d-8a3e-e9b9b2955cdc" name="Changes" comment="feat: player input system">
-      <change afterPath="$PROJECT_DIR$/src/systems/map_render.rs" afterDir="false" />
+    <list default="true" id="281c40aa-ecee-4f4d-8a3e-e9b9b2955cdc" name="Changes" comment="feat: map render system">
+      <change afterPath="$PROJECT_DIR$/src/systems/entity_render.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dungeon_crawler.iws" beforeDir="false" afterPath="$PROJECT_DIR$/dungeon_crawler.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/systems/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/systems/mod.rs" afterDir="false" />
     </list>
@@ -228,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641726290360</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: map render system">
+      <created>1641726624535</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1641726624535</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +262,7 @@
     <MESSAGE value="feat: introduce systems" />
     <MESSAGE value="feat: introduce systems and ecs" />
     <MESSAGE value="feat: player input system" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: player input system" />
+    <MESSAGE value="feat: map render system" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: map render system" />
   </component>
 </project>
