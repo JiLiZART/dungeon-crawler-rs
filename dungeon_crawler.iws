@@ -4,9 +4,11 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="281c40aa-ecee-4f4d-8a3e-e9b9b2955cdc" name="Changes" comment="feat: enemy spawner">
-      <change afterPath="$PROJECT_DIR$/src/systems/collisions.rs" afterDir="false" />
+    <list default="true" id="281c40aa-ecee-4f4d-8a3e-e9b9b2955cdc" name="Changes" comment="feat: collisions system">
+      <change afterPath="$PROJECT_DIR$/src/systems/random_move.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dungeon_crawler.iws" beforeDir="false" afterPath="$PROJECT_DIR$/dungeon_crawler.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/components.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spawner.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/spawner.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/systems/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/systems/mod.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -249,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641727538633</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: collisions system">
+      <created>1642367743657</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1642367743657</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +288,7 @@
     <MESSAGE value="feat: map render system" />
     <MESSAGE value="feat: entity render system" />
     <MESSAGE value="feat: enemy spawner" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: enemy spawner" />
+    <MESSAGE value="feat: collisions system" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: collisions system" />
   </component>
 </project>
