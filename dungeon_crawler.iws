@@ -4,11 +4,11 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="281c40aa-ecee-4f4d-8a3e-e9b9b2955cdc" name="Changes" comment="feat: collisions system">
-      <change afterPath="$PROJECT_DIR$/src/systems/random_move.rs" afterDir="false" />
+    <list default="true" id="281c40aa-ecee-4f4d-8a3e-e9b9b2955cdc" name="Changes" comment="feat: random moving">
+      <change afterPath="$PROJECT_DIR$/src/systems/end_turn.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/turn_state.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dungeon_crawler.iws" beforeDir="false" afterPath="$PROJECT_DIR$/dungeon_crawler.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/components.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spawner.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/spawner.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/systems/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/systems/mod.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -258,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642367743657</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: random moving">
+      <created>1642370023974</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1642370023974</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +296,7 @@
     <MESSAGE value="feat: entity render system" />
     <MESSAGE value="feat: enemy spawner" />
     <MESSAGE value="feat: collisions system" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: collisions system" />
+    <MESSAGE value="feat: random moving" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: random moving" />
   </component>
 </project>
