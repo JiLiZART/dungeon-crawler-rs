@@ -4,12 +4,13 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="281c40aa-ecee-4f4d-8a3e-e9b9b2955cdc" name="Changes" comment="feat: turn system">
+    <list default="true" id="281c40aa-ecee-4f4d-8a3e-e9b9b2955cdc" name="Changes" comment="feat: turn move">
+      <change afterPath="$PROJECT_DIR$/src/systems/movement.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dungeon_crawler.iws" beforeDir="false" afterPath="$PROJECT_DIR$/dungeon_crawler.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/components.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/systems/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/systems/mod.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/systems/player_input.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/systems/player_input.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/turn_state.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/turn_state.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/systems/random_move.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/systems/random_move.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642376831093</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat: turn move">
+      <created>1642377416012</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1642377416012</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +313,7 @@
     <MESSAGE value="feat: collisions system" />
     <MESSAGE value="feat: random moving" />
     <MESSAGE value="feat: turn system" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: turn system" />
+    <MESSAGE value="feat: turn move" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: turn move" />
   </component>
 </project>
