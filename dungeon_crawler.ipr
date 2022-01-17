@@ -10,7 +10,7 @@
   </component>
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -617,5 +617,34 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+  </component>
+  <component name="Yii2 Support">
+    <option name="migrateCommands">
+      <list>
+        <MigrateCommand>
+          <option name="isDefault" value="true" />
+          <option name="command" value="migrate" />
+          <option name="migrationTable" value="{{%migration}}" />
+          <option name="db" value="db" />
+          <option name="migrationPath">
+            <list>
+              <option value="@app/migrations" />
+            </list>
+          </option>
+        </MigrateCommand>
+      </list>
+    </option>
+    <option name="aliasMap">
+      <map>
+        <entry key="@webroot" value="@app/web" />
+        <entry key="@vendor" value="vendor" />
+        <entry key="@runtime" value="@app/runtime" />
+        <entry key="@console" value="console" />
+        <entry key="@common" value="common" />
+        <entry key="@yii2support-console-command-app-root" value="@console" />
+        <entry key="@frontend" value="frontend" />
+        <entry key="@backend" value="backend" />
+      </map>
+    </option>
   </component>
 </project>

@@ -4,12 +4,13 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="281c40aa-ecee-4f4d-8a3e-e9b9b2955cdc" name="Changes" comment="feat: use png assets as font with camera">
+    <list default="true" id="281c40aa-ecee-4f4d-8a3e-e9b9b2955cdc" name="Changes" comment="feat: turn move">
+      <change afterPath="$PROJECT_DIR$/src/systems/movement.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dungeon_crawler.iws" beforeDir="false" afterPath="$PROJECT_DIR$/dungeon_crawler.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/camera.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/camera.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/map.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map_builder.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/map_builder.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/components.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/systems/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/systems/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/systems/player_input.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/systems/player_input.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/systems/random_move.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/systems/random_move.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +28,46 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="4" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/ecs" />
+                    <option name="lastUsedInstant" value="1641252242" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1641164316" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="ev493wqg" />
@@ -99,6 +139,7 @@
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
@@ -169,7 +210,77 @@
       <option name="project" value="LOCAL" />
       <updated>1641158767945</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactor: refactor all modules">
+      <created>1641164257625</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1641164257625</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: introduce systems and ecs">
+      <created>1641595578504</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1641595578504</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: player input system">
+      <created>1641726290360</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1641726290360</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: map render system">
+      <created>1641726624535</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1641726624535</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: entity render system">
+      <created>1641727144516</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1641727144516</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: enemy spawner">
+      <created>1641727538633</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1641727538633</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: collisions system">
+      <created>1642367743657</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1642367743657</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: random moving">
+      <created>1642370023974</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1642370023974</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: turn system">
+      <created>1642376831093</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1642376831093</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: turn move">
+      <created>1642377416012</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1642377416012</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +303,17 @@
     <MESSAGE value="feat: player api" />
     <MESSAGE value="feat: mab builder api" />
     <MESSAGE value="feat: use png assets as font with camera" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: use png assets as font with camera" />
+    <MESSAGE value="refactor: refactor all modules" />
+    <MESSAGE value="feat: introduce systems" />
+    <MESSAGE value="feat: introduce systems and ecs" />
+    <MESSAGE value="feat: player input system" />
+    <MESSAGE value="feat: map render system" />
+    <MESSAGE value="feat: entity render system" />
+    <MESSAGE value="feat: enemy spawner" />
+    <MESSAGE value="feat: collisions system" />
+    <MESSAGE value="feat: random moving" />
+    <MESSAGE value="feat: turn system" />
+    <MESSAGE value="feat: turn move" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: turn move" />
   </component>
 </project>
